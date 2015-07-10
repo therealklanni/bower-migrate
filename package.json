@@ -1,6 +1,6 @@
 {
   "name": "bower-migrate",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Migrate packages from bower.json to package.json",
   "main": "index.js",
   "bin": {
