@@ -11,7 +11,7 @@
     "url": "https://github.com/therealklanni/bower-migrate.git"
   },
   "scripts": {
-    "build": "babel-node index.js --out-dir bin --optional runtime",
+    "build": "echo '#!/usr/bin/env node' > ./bin/index.js && babel index.js --optional runtime >> ./bin/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "babel index.js --watch index.js --out-dir bin --optional runtime"
   },

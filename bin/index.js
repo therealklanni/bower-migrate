@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 'use strict';
 
 var _interopRequireDefault = require('babel-runtime/helpers/interop-require-default')['default'];
@@ -93,3 +94,4 @@ var pkgJsonRead = _fs2['default'].createReadStream('./package.json').pipe((0, _m
     });
   }));
 })).pipe(pkgJsonWrite);
+
